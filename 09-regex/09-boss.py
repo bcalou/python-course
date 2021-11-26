@@ -25,15 +25,15 @@ valid: list[str] = [
     "j0hn.doe@mai1.com",
     "john.doe.yeah.yeah.yeah@mail.com",
     "john.doe@mail.mail.mail.com",
-    "j@mail.com",
     "j.j@mail.com",
     "johh.doe@m.com",
-    "jj@mail.com"
 ]
 
 # Tous les mails suivant sont invalides :
 
 invalid: list[str] = [
+    "j@mail.com",
+    "jj@mail.com",
     ".john.doe@mail.com",
     ".john.doe.@mail.com",
     "john.doe@.mail.com",
