@@ -1,7 +1,7 @@
 # Écrivez la fonction is_valid_email qui suivra les règles (simplifiées)
 # suivantes. Un mail valide doit :
 
-# - commencer par une chaîne d'au moins trois caractère contenant soit :
+# - commencer par une chaîne d'au moins trois caractères contenant soit :
 #   - des lettres minuscules
 #   - des chiffres
 #   - des points (mais pas au début ou à la fin de la chaîne). On accepte que
