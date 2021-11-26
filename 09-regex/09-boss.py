@@ -25,8 +25,7 @@ valid: list[str] = [
     "j0hn.doe@mai1.com",
     "john.doe.yeah.yeah.yeah@mail.com",
     "john.doe@mail.mail.mail.com",
-    "j.j@mail.com",
-    "johh.doe@m.com",
+    "j.j@mail.com"
 ]
 
 # Tous les mails suivant sont invalides :
@@ -43,7 +42,8 @@ invalid: list[str] = [
     "John.doe@mail.com",
     "john.doe@Mail.com"
     "@john.doe@mail.com",
-    "john.doe@mail.com@"
+    "john.doe@mail.com@",
+    "johh.doe@m.com",
 ]
 
 # Utilise https://regex101.com/ pour construire votre regex. Dans "Test string",
