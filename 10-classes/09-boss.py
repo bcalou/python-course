@@ -28,7 +28,7 @@
 # et pas encore d'instances de classes ! Celles-ci seront créées plus tard.
 
 # La classe Bulbasaur hérite de la classe Pokemon avec les valeurs suivantes :
-# _name: Bulbasaur
+# _name: passé à __init__ (chaque individu peut avoir un nom différent)
 # _type: grass
 # _life_points: 40
 # _attack: {"name": "Leech Seed", "damage": 20}
@@ -36,7 +36,7 @@
 # valeur de chaque attaque qui lui est infligée.
 
 # La classe Charmander hérite de la classe Pokemon avec les valeurs suivantes :
-# _name: Charmander
+# _name: passé à __init__ (chaque individu peut avoir un nom différent)
 # _type: fire
 # _life_points: 50
 # _attack: {"name": "Ember", "damage": 30}
@@ -44,7 +44,7 @@
 # aux dégats.
 
 # La classe Squirtle hérite de la classe Pokémon avec les valeurs suivantes :
-# _name: Squirtle
+# _name: passé à __init__ (chaque individu peut avoir un nom différent)
 # _type: water
 # _life_points: 40
 # _attack: {"name": "Bubble", "damage": 15}
