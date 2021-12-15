@@ -61,4 +61,4 @@ my_instance.get_letter() # Ok
 
 test_adult = User("bob", "doe", 18)
 test_child = User("child", "doe", 10)
-print('\033[92m✓ OK' if get_oldest(test_adult, test_child) == "bob doe" and test_adult._firstname == "bob" and test_adult._lastname == "doe" and test_adult._age == 18 and test_adult.is_adult() else '\033[91m❌KO')
+print('\033[92m✓ OK' if get_oldest(test_adult, test_child) == "bob doe" and test_adult._firstname == "bob" and test_adult._lastname == "doe" and test_adult._age == 18 and test_adult._is_adult() else '\033[91m❌KO')
