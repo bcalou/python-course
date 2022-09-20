@@ -11,6 +11,9 @@
 milliseconds_per_seconds: int = 1000
 ################################################################################
 
+# Note : le typage n'est pas obligatoire pour que le programme fonctionne,
+# mais c'est une habitude que nous allons prendre pour rendre le plus explicite
+# possible nos intentions
 
 
 

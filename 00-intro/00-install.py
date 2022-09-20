@@ -8,10 +8,9 @@
 # Installons ensuite python.
 # Pour ce faire, rendez-vous sur https://www.python.org/downloads/.
 # Sélectionnez votre système d'exploitation et suivez les instructions.
-# Sur Windows, sélectionnez Windows installer (64-bit)
+# Sur Windows, sélectionnez Windows installer (64-bit).
+# Pendant l'installation, cochez la case "Add python to PATH"
 # Sur MacOS, sélectionnez macOS 64-bit universal2 installer
-
-# Sur Windows: cochez la case "Add python to PATH"
 
 # Dans VSCode, ouvrez le dossier "Algo" afin de voir tous les fichiers dans
 # l'arborescence, à gauche, et ouvrez exercice-00.py (ce fichier !).
@@ -23,8 +22,9 @@
 # système):
 # py 00-intro/00-install.py
 # python3 00-intro/00-install.py
+# python3.10 00-intro/00-install.py
 # python 00-intro/00-install.py
 
 # Si vous voyez le message "Hello World", félicitations, c'est tout bon !
-
+  
 print('Hello World');

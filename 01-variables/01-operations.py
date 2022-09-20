@@ -1,8 +1,8 @@
 # Il est possible de déclarer des variables en utilisant la valeur d'autres
 # variables !
 
-# Ci dessous, la deuxième variable utilise la première en la multipliant par 60.
-# Vous pouvez bien sûr additionner, diviser, soustraire...
+# Ci dessous, la deuxième variable utilise la première en la multipliant par
+# 60. # Vous pouvez bien sûr additionner, diviser, soustraire...
 
 # Déclarez les variables suivantes et donnez leur des valeurs appropriées:
 # milliseconds_per_hour
