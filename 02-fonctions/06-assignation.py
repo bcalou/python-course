@@ -6,11 +6,12 @@
 # Stockez le carré de 8 dans une variable "square"
 
 # Puis appelez à nouveau la fonction get_square, mais cette fois en lui passant
-# la variable "square", de sorte à obtenir le carré du carré, et stockez le dans
-# une variable "double_square".
+# la variable "square", de sorte à obtenir le carré du carré, et stockez le
+# dans une variable "double_square".
 
 ################################################################################
 def multiple(a: float, b: float) -> float:
+    """Multiply two input numbers"""
     return a * b
 
 result: float = multiple(6, 8)

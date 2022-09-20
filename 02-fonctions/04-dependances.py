@@ -17,9 +17,11 @@
 
 ################################################################################
 def get_square_surface(size: float) -> float:
+    """Get the surface of a square of the given size"""
     return size * size
 
 def get_square_description(size: float) -> str:
+    """Get a text description for the square of the given size""" 
     return "Voici un carré de " + str(get_square_surface(size)) + "cm2 de surface"
 ################################################################################
 

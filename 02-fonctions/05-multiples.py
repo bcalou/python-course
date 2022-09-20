@@ -6,12 +6,13 @@
 # rectangle.
 
 # Créez ensuite une fonction get_square_perimeter prenant en paramètre une
-# taille # "size". Un carré étant un rectangle de côté égaux, appelez à
-# l'intérieur de cette fonction la précédente fonction get_rectangle_surface, en
-# passant deux fois "size" pour la largeur et la hauteur.
+# taille "size". Un carré étant un rectangle de côté égaux, appelez à
+# l'intérieur de cette fonction la précédente fonction get_rectangle_surface,
+# en passant deux fois "size" pour la largeur et la hauteur.
 
 ################################################################################
 def multiple(a: float, b: float) -> float:
+    """Multiply two input numbers"""
     return a * b
 ################################################################################
 
@@ -19,7 +20,8 @@ print(multiple(3, 3.5))
 print(get_rectangle_perimeter(5, 7.5))
 print(get_square_perimeter(7))
 
-
+# Bonne pratique : un paramètre ça va, deux paramètres passe encore... mais
+# au delà, mieux vaut essayer de trouver une autre approche !
 
 
 
