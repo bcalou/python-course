@@ -1,4 +1,4 @@
-# Dernier type incontournable, le booléen ne prend que deux valeurs:
+# Dernier type incontournable, le booléen ne prend que deux valeurs :
 # True ou False
 
 # Il est essentiel pour gérer les conditions.
@@ -10,8 +10,19 @@
 sky_is_blue: bool = True
 ################################################################################
 
-# On fera attention à nommer nos boolens comme des affirmations pour fluidifier
-# la lecture de notre code. sky_is_blue est meilleur que blue_sky, plus évasif.
+# On fera attention à nommer nos booleens comme des affirmations pour
+# fluidifier la lecture de notre code.
+# sky_is_blue est meilleur que blue_sky, dont le type serait moins évident.
+
+
+
+
+
+
+
+
+
+
 
 
 

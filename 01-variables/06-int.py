@@ -4,10 +4,10 @@
 # notre programme, tout ce qu'il rentera sera considéré comme une chaîne.
 
 # Or nous voudrons parfois effectuer des calculs sur ces variables, et nous
-# devrons donc les transformer en int ou float
+# devrons donc les transformer en int ou float.
 
 # Grâce aux fonctions int() et float(), utilisez les deux variables présentes
-# pour calculer une variable salary_per_year
+# pour calculer une variable salary_per_year.
 
 ################################################################################
 number_of_months: str = "12"

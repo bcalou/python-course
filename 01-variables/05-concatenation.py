@@ -4,7 +4,10 @@
 # chaine3: str = chaine1 + chaine2
 
 # Créez une variable full_name qui contiendra le nom complet de cet illustre
-# personnage. Attention à ne pas oublier l'espace entre le prénom et le nom !
+# personnage.
+
+# N'oubliez pas que vous pouvez utiliser la fonction print pour voir ce que
+# contiennent vos variables.
 
 ################################################################################
 first_name: str = "Patrick"

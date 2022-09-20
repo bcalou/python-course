@@ -1,6 +1,7 @@
-# Voici votre premier boss de fin de niveau, un problème un peu plus complexe et
-# avec un peu moins d'aide. Prenez votre temps : l'important est la réflexion
-# que # vous développerez par vous même pour résoudre le problème.
+# Voici votre premier boss de fin de niveau, un problème un peu plus complexe
+# et avec un peu moins d'aide.
+# Prenez votre temps : l'important est la réflexion que vous développerez par
+# vous même pour résoudre le problème.
 
 # D'abord, déclarez une variable "a" possédant la valeur 42
 # Ensuite, déclarez une variable "b" qui contiendra le carré de la variable "a"
@@ -11,6 +12,7 @@
 # Attention, vous ne pouvez écrire "42" qu'une seule fois.
 
 ################################################################################
+
 ################################################################################
 
 print("a: ", a);

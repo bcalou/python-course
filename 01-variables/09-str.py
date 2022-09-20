@@ -4,7 +4,7 @@
 # "Patrick Sébastien est né en 1953" en utilisant les variables ci-dessous.
 
 # Pour que python accepte, il faudra convertir 1953 en chaîne grâce à la
-# fonction str().
+# fonction str(). Cela s'appelle "caster" une variable.
 
 # Exemple : str(2022) -> "2022"
 
