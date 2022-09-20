@@ -1,5 +1,5 @@
 # Le retour d'une fonction peut être stocké dans une variable comme le montre 
-# l'exemple ci-dessous
+# l'exemple ci-dessous.
 
 # Créez une fonction get_square qui retourne le carré du nombre envoyé.
 
@@ -9,12 +9,14 @@
 # la variable "square", de sorte à obtenir le carré du carré, et stockez le
 # dans une variable "double_square".
 
-################################################################################
 def multiple(a: float, b: float) -> float:
     """Multiply two input numbers"""
     return a * b
 
 result: float = multiple(6, 8)
+
+################################################################################
+
 ################################################################################
 
 print("square :", square)

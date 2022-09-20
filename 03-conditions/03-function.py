@@ -7,10 +7,12 @@
 # "France", et en second paramètre l'âge de la personne.
 # Cette fonction doit retourner un booléen.
 
-################################################################################
 def is_centenary(age: int) -> bool:
     """Return true if the given age is above 100"""
     return age >= 100
+
+################################################################################
+
 ################################################################################
 
 

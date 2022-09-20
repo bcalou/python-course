@@ -1,3 +1,6 @@
+# On vous a demandé de gérer le système de notes d'une école aux règles tout à
+# fait étranges...
+
 # Créez une fonction "compute_notes" prenant en paramètre une liste de notes
 # et un index : compute_notes([16, 13, 9, 12], 2)
 

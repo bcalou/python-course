@@ -3,10 +3,12 @@
 # Créez une variable "can_drink" qui sera true si is_sober est vraie et si
 # is_minor est faux (en utilisant le mot clé "not")
 
-################################################################################
 age: int = 17
 is_sober: bool = True
 is_minor: bool = age < 18
+
+################################################################################
+
 ################################################################################
 
 print(can_drink)

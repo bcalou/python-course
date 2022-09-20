@@ -5,12 +5,11 @@
 # Sur le modèle de get_square_surface, décrivez le comportement de la fonction
 # get_square_perimeter dans un commentaire introductif.
 
-################################################################################
 def get_square_surface(size: float) -> float:
     """Get the surface of a square of the given size"""
     return size * size
 
-
+################################################################################
 def get_square_perimeter(size: float) -> float:
     return size * 4
 ################################################################################

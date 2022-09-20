@@ -1,13 +1,15 @@
 # Les listes (ou tableaux) contiennent une suite ordonnée de valeurs de même
 # type.
 
-# days: list[str] = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+days: list[str] = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
 # Créez une variable "prime_numbers" contenant la liste
 # des 10 premiers nombres premiers (1 n'en faisant pas partie).
 
 # Créez une variable "voyels" contenant la liste des voyelles
 # (en majuscule, en comptant "Y").
+
+# N'oubliez pas les types.
 
 ################################################################################
 

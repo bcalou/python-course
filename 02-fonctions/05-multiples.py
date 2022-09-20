@@ -10,10 +10,12 @@
 # l'intérieur de cette fonction la précédente fonction get_rectangle_surface,
 # en passant deux fois "size" pour la largeur et la hauteur.
 
-################################################################################
 def multiple(a: float, b: float) -> float:
     """Multiply two input numbers"""
     return a * b
+
+################################################################################
+
 ################################################################################
 
 print(multiple(3, 3.5))

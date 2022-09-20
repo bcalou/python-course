@@ -7,15 +7,14 @@
 
 # Stockez le tableau le plus long dans une variable "biggest_band"
 
-################################################################################
 beatles: list[str] = ["Paul McCarntey", "John Lennon", "Ringo Starr", "George Harisson"]
 muse: list[str] = ["Matthew James Bellamy", "Dominic James Howard", "Christopher Wolstenholme"]
+
 ################################################################################
 
-# Astuce : vous pouvez utiliser un ternaire pour assigner une valeur ou une
-# autre en fonction d'une condition
-# https://book.pythontips.com/en/latest/ternary_operators.html
+################################################################################
 
+# Pensez à l'opérateur ternaire !
 
 
 

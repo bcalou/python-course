@@ -15,12 +15,14 @@
 # Créez un booléen is_stranger qui sera vrai si la variable nationality est
 # différente de "French"
 
-################################################################################
 age: int = 18
 gender: str = "F"
 nationality: str = "French"
 
 is_minor = (age < 18)
+
+################################################################################
+
 ################################################################################
 
 # Les parenthèses autour du test sont optionnelles, mais peuvent vous aider à
