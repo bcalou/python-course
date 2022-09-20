@@ -6,7 +6,8 @@
 # Il contient au moins une lettre minuscule
 # Il contient au moins une lettre majuscule
 # Il contient au moins deux chiffres
-# Il ne contient pas d'autre type de caractère (car notre base de données ne sait pas les gérer)
+# Il ne contient pas d'autre type de caractère (car notre base de données ne
+# sait pas les gérer)
 
 # La fonction doit renvoyer un booléen.
 
