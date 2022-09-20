@@ -2,7 +2,10 @@
 # une vérification sur chaque valeur.
 
 # Exemple : for number in [7, 45, 65]
-# La variable number prendra successivement les valeurs 7, 45 et 65
+# La variable "number" prendra successivement les valeurs 7, 45 et 65
+
+for number in [7, 45, 65]:
+    print(number)
 
 # Utilisez une boucle for pour calculer la moyenne des notes ci-dessous.
 # Stockez le résultat dans une variable "average"

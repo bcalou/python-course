@@ -3,7 +3,8 @@
 
 # Pour cela, on peut générer la boucle automatiquement grâce à range.
 
-# for i in range(3)
+for i in range(3):
+    print(i)
 
 # La boucle ci dessus sera exécutée avec les valeurs 0, 1, 2.
 

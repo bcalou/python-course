@@ -3,10 +3,14 @@
 # Pour cela, il suffit d'utiliser la fonction reversed() sur le tableau ou le 
 # range utilisé.
 
+for i in reversed(range(3)):
+    print(i)
+
 # Utilisez une boucle for inversée pour trouver le plus grand nombre dont le
 # carré est inférieur à 1000. Stockez le résultat dans une variable "result".
 
-# N'oubliez pas d'utiliser break lorsque vous avez trouvé.
+# N'oubliez pas d'utiliser break lorsque vous avez trouvé, car ça ne sert à
+# rien de continuer (gâchis de performance).
 
 ################################################################################
 

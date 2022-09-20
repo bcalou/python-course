@@ -4,9 +4,9 @@
 # Voici une boucle while qui ne s'exécutera qu'une fois (puisque la condition)
 # devient fausse dès la première exécution de la boucle :
 
-# active = True
-# while active:
-#     active = False
+active = True
+while active:
+    active = False
 
 # Utilisez une boucle while pour stocker dans un tableau toutes les puissances
 # de 2 inférieures à 10000 : [2, 4, 8, 16]...

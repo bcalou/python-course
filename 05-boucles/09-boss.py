@@ -1,7 +1,7 @@
 # En mathématiques, la suite de Fibonacci est une suite d'entiers dans laquelle
 # chaque terme est la somme des deux termes qui le précèdent (Wikipédia).
 
-# En voici le début :
+# En voici le début (on choisit arbitrairement 0 et 1 pour débuter) :
 # 0, 1, 1, 2, 3, 5, 8...
 
 # Écrivez une fonction find_in_fibonacci_suite()
@@ -13,6 +13,11 @@
 
 ################################################################################
 
+find_in_fibonacci_suite([584, 987, 2])
+
+# D'abord, trouvez comment faire. Votre première version sera peut-être un peu
+# brute de décoffrage et peu optimisée. C'est alors la seconde partie du
+# travail qui commence : clarifiez et optimisez votre code.
 
 
 
