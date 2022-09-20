@@ -1,15 +1,20 @@
 # Et si on combinait les comparaisons ?
 
-# Avec les mots clés "and" et "or", vous pouvez combiner des tests
+# Avec les mots clés "and" et "or", vous pouvez combiner des tests.
 
-# La variable is_teenager vous montre comment
+# La variable is_teenager vous montre comment.
 
 # Créez une variable can_buy_gun qui sera vraie si le pays est "USA" et l'âge
-# est supérieur ou égal à 21
+# est supérieur ou égal à 21.
 
 # Créez une variable can_drink qui sera vraie si le pays est "France" et l'âge
 # supérieur ou égal à 18, ou si le pays est "USA" et l'age supérieur ou égal à 
 # 21 (âge minimum pour la vente d'alcool aux USA)
+
+# Utilisez des parenthèses pour bien respecter la logique :
+# a or b and c
+# n'est pas équivalent à
+# (a or b) and c
 
 ################################################################################
 country: str = "France"

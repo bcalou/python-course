@@ -5,12 +5,12 @@
 
 # La différence se teste avec !=
 
-# La variable is_minor vous permet de comprendre la syntaxe à utiliser
+# La variable is_minor vous permet de comprendre la syntaxe à utiliser.
 
 # Créez un booléen is_adult qui sera vrai si la variable age est supérieure
-# ou égale à 18
+# ou égale à 18.
 
-# Créez un booléen is_male qui sera vrai si la variable gender vaut "M"
+# Créez un booléen is_male qui sera vrai si la variable gender vaut "M".
 
 # Créez un booléen is_stranger qui sera vrai si la variable nationality est
 # différente de "French"

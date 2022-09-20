@@ -1,18 +1,20 @@
 # Créez une fonction is_leap_year qui prend une année en paramètre. Elle doit
 # renvoyer True si l'année est bissextile, False sinon.
 
-# Pour vérifier qu'un nombre est divisible par 4, il faut utiliser l'opération
-# modulo. Cette opération donne le reste de la division par 0. Donc si le modulo
-# vaut 0, cela veut dire que le nombre est divisible.
-
-# 12 % 4 = 0 (il n'y a pas de reste car 12 est divisible par 4)
-# 13 % 4 = 1 (il y a un reste : 13 n'est pas divisible par 4)
-
 ################################################################################
 
 ################################################################################
 
 print(is_leap_year(2021))
+
+
+
+
+
+
+
+
+
 
 
 

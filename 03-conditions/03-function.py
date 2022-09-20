@@ -3,12 +3,13 @@
 # La fonction is_centenary renvoit true si l'âge passé en paramètre est
 # supérieur ou égal à 100.
 
-# Créez une fonction can_drink qui prend en premier paramètre "USA" ou "France",
-# et en second paramètre l'âge de la personne. Cette fonction doit retourner
-# un booléen.
+# Créez une fonction can_drink qui prend en premier paramètre "USA" ou
+# "France", et en second paramètre l'âge de la personne.
+# Cette fonction doit retourner un booléen.
 
 ################################################################################
 def is_centenary(age: int) -> bool:
+    """Return true if the given age is above 100"""
     return age >= 100
 ################################################################################
 

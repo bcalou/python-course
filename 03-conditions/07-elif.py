@@ -1,5 +1,5 @@
 # Combinaison de else et de if, elif permet de tester une autre condition si la
-# précédente à échouer. On peut en faire suivre autant que nécessaire.
+# précédente à échoué. On peut en faire suivre autant que nécessaire.
 
 # On peut finir (ou non) par un else classique, qui sera exécuté si toutes les
 # conditions ont été ignorées.
