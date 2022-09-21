@@ -3,8 +3,8 @@
 # Créez une variable "max_note" qui contiendra la meilleure note de toutes les
 # notes obtenues par Jane et John.
 
-jane_notes = [14, 8, 19, 8, 15]
-john_notes = [8, 4, 20, 17, 8]
+jane_notes: list[int] = [14, 8, 19, 8, 15]
+john_notes: list[int] = [8, 4, 20, 17, 8]
 
 ################################################################################
 
