@@ -19,7 +19,7 @@ age: int = 18
 gender: str = "F"
 nationality: str = "French"
 
-is_minor = (age < 18)
+is_minor: bool = (age < 18)
 
 ################################################################################
 
