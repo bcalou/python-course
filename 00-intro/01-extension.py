@@ -9,6 +9,9 @@
 # Dans le menu des extensions de VSCode, cherchez et installez l'extension
 # "Python" de Microsoft. Il peut être nécessaire de redémarrer VSCode.
 
+# Si vous utilisez VSCode, modifiez le paramètre "Type Checking Mode" pour la 
+# valeur "basic"
+
 # La ligne de code devrait maintenant être soulignée en rouge, prouvant que
 # l'extension fonctionne bien.
 # Elle vous aidera à ne pas commettre ce genre d'erreur.
