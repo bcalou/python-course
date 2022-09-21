@@ -20,7 +20,7 @@ say_hi(name = "John")
 # Utilisez un appel nommé pour stocker dans my_salary le résultat de 39 heures
 # de travail avec un bonus de 300, sans toucher au salaire horaire.
 
-def compute_salary(hours: int, hourly_rate: int = 10, bonus: int = 0) -> float:
+def compute_salary(hours: int, hourly_rate: int = 10, bonus: int = 0) -> int:
     """Compute the salary depending on the hourly rate and optional bonus"""
     return (hours * hourly_rate) + bonus
 
