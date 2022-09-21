@@ -2,7 +2,7 @@
 
 # Voici un exemple :
 
-all_equals = 5 == 10 == 15
+all_equals: bool = 5 == 10 == 15
 
 # Écrivez une fonction is_ascending(), prenant en paramètre trois nombres et
 # renvoyant True si les nombres sont triés par ordre croissant
