@@ -69,4 +69,3 @@ test: bool = False
 
 # Code de vérification
 print('\033[92m✓ OK\033[00m' if test else '\033[91m❌KO\033[00m')
-print("test")
