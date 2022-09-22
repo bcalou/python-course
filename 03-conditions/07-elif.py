@@ -44,4 +44,4 @@ print(get_mention(17))
 
 
 
-print('\033[92m✓ OK' if get_mention(7) == "Rattrapage" and get_mention(11) == "Passable" and get_mention(12) == "Assez bien" and get_mention(15.5) == "Bien" and get_mention(20) == "Très bien" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_mention(7) == "Rattrapage" and get_mention(11) == "Passable" and get_mention(12) == "Assez bien" and get_mention(15.5) == "Bien" and get_mention(20) == "Très bien" else '\033[91m❌KO\033[00m')

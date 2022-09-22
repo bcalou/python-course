@@ -45,4 +45,4 @@ print("Résultat: ", salary_per_year)
 
 
 
-print('\033[92m✓ OK' if salary_per_year == 12 * 1554.58 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if salary_per_year == 12 * 1554.58 else '\033[91m❌KO\033[00m')

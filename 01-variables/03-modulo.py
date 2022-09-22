@@ -47,4 +47,4 @@ persons: int = 3
 
 
 
-print('\033[92m✓ OK' if remaining_slices == 2 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if remaining_slices == 2 else '\033[91m❌KO\033[00m')

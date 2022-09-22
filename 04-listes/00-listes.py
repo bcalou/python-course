@@ -54,4 +54,4 @@ days: list[str] = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
 
 
-print('\033[92m✓ OK' if prime_numbers == [2,3,5,7,11,13,17,19,23,29] and voyels == ['A', 'E', 'I', 'O', 'U', 'Y'] else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if prime_numbers == [2,3,5,7,11,13,17,19,23,29] and voyels == ['A', 'E', 'I', 'O', 'U', 'Y'] else '\033[91m❌KO\033[00m')

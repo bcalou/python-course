@@ -53,4 +53,4 @@ def say_hi(name: str = "John"):
 
 
 
-print('\033[92m✓ OK' if compute_salary(35, 20, 1000) == 1700 and compute_salary(35, 20) == 700 and compute_salary(35) == 350 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if compute_salary(35, 20, 1000) == 1700 and compute_salary(35, 20) == 700 and compute_salary(35) == 350 else '\033[91m❌KO\033[00m')

@@ -60,4 +60,4 @@ days: list[str] = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
 
 
-print('\033[92m✓ OK' if work_days == ["Mon", "Tue", "Wed", "Thu", "Fri"] else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if work_days == ["Mon", "Tue", "Wed", "Thu", "Fri"] else '\033[91m❌KO\033[00m')

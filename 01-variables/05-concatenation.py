@@ -46,4 +46,4 @@ last_name: str = "Sébastien"
 
 
 
-print('\033[92m✓ OK' if full_name == "Patrick Sébastien" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if full_name == "Patrick Sébastien" else '\033[91m❌KO\033[00m')

@@ -48,4 +48,4 @@ print("Can drink :", can_drink)
 
 
 
-print('\033[92m✓ OK' if not can_buy_gun and can_drink else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if not can_buy_gun and can_drink else '\033[91m❌KO\033[00m')

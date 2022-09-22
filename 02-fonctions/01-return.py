@@ -49,4 +49,4 @@ print(get_first_day_of_week())
 
 
 
-print('\033[92m✓ OK' if get_first_day_of_week() == "Sunday" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_first_day_of_week() == "Sunday" else '\033[91m❌KO\033[00m')

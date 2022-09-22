@@ -44,4 +44,4 @@ milliseconds_per_minutes: int = milliseconds_per_seconds * 60
 
 
 
-print('\033[92m✓ OK' if milliseconds_per_hour == 1000 * 60 * 60 and milliseconds_per_day == 1000 * 60 * 60 * 24 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if milliseconds_per_hour == 1000 * 60 * 60 and milliseconds_per_day == 1000 * 60 * 60 * 24 else '\033[91m❌KO\033[00m')

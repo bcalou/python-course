@@ -53,4 +53,4 @@ print(get_square_description(4))
 
 
 
-print('\033[92m✓ OK' if get_square_perimeter(2.5) == 10 and get_square_description(12) == "Voici un carré de 12cm de côté" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_square_perimeter(2.5) == 10 and get_square_description(12) == "Voici un carré de 12cm de côté" else '\033[91m❌KO\033[00m')

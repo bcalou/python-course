@@ -55,4 +55,4 @@ print(get_square_description(4))
 
 
 
-print('\033[92m✓ OK' if get_square_surface(3) == 9 and get_square_volume(3) == 27 and get_square_description(3) == "Voici un carré de 9cm2 de surface et de 27cm3 de volume" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_square_surface(3) == 9 and get_square_volume(3) == 27 and get_square_description(3) == "Voici un carré de 9cm2 de surface et de 27cm3 de volume" else '\033[91m❌KO\033[00m')

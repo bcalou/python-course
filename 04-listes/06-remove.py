@@ -56,4 +56,4 @@ voyels: list[str] = ['A', 'E', 'X', 'I', 'O', 'X', 'U', 'Y']
 
 
 
-print('\033[92m✓ OK' if voyels == ["A", "E", "I", "O", "U", "Y"] else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if voyels == ["A", "E", "I", "O", "U", "Y"] else '\033[91m❌KO\033[00m')

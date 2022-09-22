@@ -50,4 +50,4 @@ print("Result :", result)
 
 
 
-print('\033[92m✓ OK' if result == 24 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if result == 24 else '\033[91m❌KO\033[00m')

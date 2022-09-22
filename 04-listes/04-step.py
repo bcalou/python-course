@@ -61,4 +61,4 @@ months: list[str] = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Se
 
 
 
-print('\033[92m✓ OK' if even_months == ["Feb", "Apr", "Jun", "Aug", "Oct", "Dec"] else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if even_months == ["Feb", "Apr", "Jun", "Aug", "Oct", "Dec"] else '\033[91m❌KO\033[00m')

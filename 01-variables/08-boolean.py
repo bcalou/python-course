@@ -47,4 +47,4 @@ sky_is_blue: bool = True
 
 
 
-print('\033[92m✓ OK' if not water_is_green and fire_is_hot else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if not water_is_green and fire_is_hot else '\033[91m❌KO\033[00m')

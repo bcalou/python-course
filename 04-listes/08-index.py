@@ -51,4 +51,4 @@ months: list[str] = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Se
 
 
 
-print('\033[92m✓ OK' if message == "Mars est le 3e mois de l'année" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if message == "Mars est le 3e mois de l'année" else '\033[91m❌KO\033[00m')

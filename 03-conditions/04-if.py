@@ -45,4 +45,4 @@ print(get_rectangle_surface(4, 6))
 
 
 
-print('\033[92m✓ OK' if get_rectangle_surface(8, 4) == 32 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_rectangle_surface(8, 4) == 32 else '\033[91m❌KO\033[00m')

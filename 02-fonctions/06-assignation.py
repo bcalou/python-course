@@ -54,4 +54,4 @@ print("cube :", double_square)
 
 
 
-print('\033[92m✓ OK' if get_square(9) == 81 and square == 64 and double_square == 4096 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_square(9) == 81 and square == 64 and double_square == 4096 else '\033[91m❌KO\033[00m')

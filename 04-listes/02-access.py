@@ -61,4 +61,4 @@ work_days: list[int] = [1, 2, 3, 4, 5]
 
 
 
-print('\033[92m✓ OK' if first_day == "Sun" and last_day_of_work == "Fri" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if first_day == "Sun" and last_day_of_work == "Fri" else '\033[91m❌KO\033[00m')

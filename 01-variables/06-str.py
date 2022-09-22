@@ -51,4 +51,4 @@ print(presentation)
 
 
 
-print('\033[92m✓ OK' if presentation == "Patrick Sébastien est né en 1953" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if presentation == "Patrick Sébastien est né en 1953" else '\033[91m❌KO\033[00m')

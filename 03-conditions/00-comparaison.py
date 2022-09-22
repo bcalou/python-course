@@ -47,4 +47,4 @@ is_minor: bool = (age < 18)
 
 
 
-print('\033[92m✓ OK' if is_adult and not is_male and not is_stranger else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if is_adult and not is_male and not is_stranger else '\033[91m❌KO\033[00m')

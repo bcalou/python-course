@@ -52,4 +52,4 @@ muse: list[str] = ["Matthew James Bellamy", "Dominic James Howard", "Christopher
 
 
 
-print('\033[92m✓ OK' if biggest_band == beatles else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if biggest_band == beatles else '\033[91m❌KO\033[00m')

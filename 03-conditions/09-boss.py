@@ -40,4 +40,4 @@ print(is_leap_year(2021))
 
 
 
-print('\033[92m✓ OK' if is_leap_year(2000) and not is_leap_year(1900) and not is_leap_year(1998) and is_leap_year(2004) else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if is_leap_year(2000) and not is_leap_year(1900) and not is_leap_year(1998) and is_leap_year(2004) else '\033[91m❌KO\033[00m')

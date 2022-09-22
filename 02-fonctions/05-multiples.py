@@ -53,4 +53,4 @@ print(get_square_perimeter(7))
 
 
 
-print('\033[92m✓ OK' if get_square_perimeter(5.5) == 22 and get_rectangle_perimeter(10, 5.5) == 31 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_square_perimeter(5.5) == 22 and get_rectangle_perimeter(10, 5.5) == 31 else '\033[91m❌KO\033[00m')

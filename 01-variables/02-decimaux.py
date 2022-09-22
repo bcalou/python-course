@@ -49,4 +49,4 @@ print("Résultat: ", slices_per_person)
 
 
 
-print('\033[92m✓ OK' if slices_per_person == 8 / 3 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if slices_per_person == 8 / 3 else '\033[91m❌KO\033[00m')

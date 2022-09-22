@@ -47,4 +47,4 @@ john_notes: list[int] = [8, 4, 20, 17, 8]
 
 
 
-print('\033[92m✓ OK' if max_note == 20 else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if max_note == 20 else '\033[91m❌KO\033[00m')

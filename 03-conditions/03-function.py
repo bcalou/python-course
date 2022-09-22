@@ -39,4 +39,4 @@ def is_centenary(age: int) -> bool:
 
 
 
-print('\033[92m✓ OK' if not can_drink("USA", 20) and can_drink("USA", 21) and not can_drink("France", 17) and can_drink("France", 18) else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if not can_drink("USA", 20) and can_drink("USA", 21) and not can_drink("France", 17) and can_drink("France", 18) else '\033[91m❌KO\033[00m')
