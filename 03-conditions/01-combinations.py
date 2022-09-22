@@ -24,9 +24,9 @@ is_teenager: bool = (age >= 10 and age <= 19)
 
 ################################################################################
 
-print("Is teenager :", is_teenager);
-print("Can buy gun :", can_buy_gun);
-print("Can drink :", can_drink);
+print("Is teenager :", is_teenager)
+print("Can buy gun :", can_buy_gun)
+print("Can drink :", can_drink)
 
 # Le code de vérification ne fait pas tout ! Vérifiez qu'en changeant vos deux
 # variables country et age, le résultat est cohérent.

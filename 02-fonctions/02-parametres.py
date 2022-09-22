@@ -18,9 +18,9 @@ def get_square_surface(size: float) -> float:
 
 ################################################################################
 
-print(get_square_surface(4));
-print(get_square_perimeter(4));
-print(get_square_description(4));
+print(get_square_surface(4))
+print(get_square_perimeter(4))
+print(get_square_description(4))
 
 # Si votre extension VSCode Python est correctement activée, vous aurez une 
 # alerte si vous essayez d'appeler une fonction avec autre chose que le type

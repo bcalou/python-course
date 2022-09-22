@@ -21,8 +21,8 @@ def get_seconds_per_hour() -> int:
 
 ################################################################################
 
-print(get_seconds_per_hour());
-print(get_first_day_of_week());
+print(get_seconds_per_hour())
+print(get_first_day_of_week())
 
 # Pour l'instant, une fonction qui renvoit toujours le même résultat ne vaut
 # pas mieux qu'une simple variable... Mais chaque chose en son temps.
