@@ -15,7 +15,7 @@
 
 ################################################################################
 
-# Pour simplifier vos test, utilisez input() et "while True" afin de pouvoir
+# Pour simplifier vos tests, utilisez input() et "while True" afin de pouvoir
 # tester plusieurs entrées d'affilée.
 
 
