@@ -10,7 +10,7 @@
 # "Python" de Microsoft. Il peut être nécessaire de redémarrer VSCode.
 
 # Si vous utilisez VSCode, modifiez le paramètre "Type Checking Mode" pour la 
-# valeur "basic"
+# valeur "basic" (Fichier -> Préférences -> Paramètres).
 
 # La ligne de code devrait maintenant être soulignée en rouge, prouvant que
 # l'extension fonctionne bien.
