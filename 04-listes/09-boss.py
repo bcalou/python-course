@@ -23,7 +23,7 @@
 # Si les deux semestres ne contiennent que des zéros, on retourne le tableau
 # sans modification.
 
-# Exemple : compute_notes([16, 13, 9, 0, 0], 3) -> [16, 13, 9, 0, 0, 9]
+# Exemple : compute_notes([16, 13, 9, 0, 0], 3) -> [16, 13, 9, 0, 0, 16]
 
 ################################################################################
 
