@@ -1,6 +1,8 @@
 # Il est très fréquent de vouloir rendre certaines clés d'un type optionnelles.
 
-# Cela est possible grâce à l'annotation NotRequired[str] :
+# Cela est possible grâce à l'annotation NotRequired[str].
+# Note : vous devrez peut-être éxécuter la commande
+# "pip install typing_extensions"
 
 from typing import TypedDict
 from typing_extensions import NotRequired
