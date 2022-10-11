@@ -1,7 +1,7 @@
 # map() n'est pas la seule fonction de ce type à nous intéresser.
 
 # filter() permet aussi de transformer un tableau en un autre tableau. Mais lui
-# ne transforme par les valeurs, il les filtre en fonction d'une condition, ce
+# ne transforme pas les valeurs, il les filtre en fonction d'une condition, ce
 # qui est extrèmement utile.
 
 # Voici par exemple un filtre qui garde uniquement les nombres pairs :
