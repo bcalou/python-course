@@ -2,7 +2,7 @@
 
 # string.upper() pour passer en majuscule
 # string.lower() pour passer en minuscule
-# string.title() pour ajouter une lettre en début de chaque mot
+# string.title() pour ajouter une majuscule en début de chaque mot
 
 # Écrivez une fonction are_equal_strings() qui prend en paramètre deux chaînes
 # et renvoit true si elles sont identiques SANS tenir compte de la casse
