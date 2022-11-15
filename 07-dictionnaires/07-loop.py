@@ -2,9 +2,8 @@
 # une opération sur chacune de ses valeurs.
 
 # L'écriture de la boucle est de type :
-# for key, value in dictionnary.items():
-# Où list est le dictionnaire.
-# Vous pouvez remplacer key et value par les nom que vous voulez : utilisez
+# for key in dictionnary
+# Vous pouvez remplacer key par le nom que vous voulez : utilisez
 # des noms explicites !
 
 # Trouvez la note la plus élevée du dictionnaire "notes" et stockez le nom de
@@ -27,8 +26,10 @@ notes: Notes = {
 
 ################################################################################
 
-# Il est également possible d'itérer uniquement sur les clés ou sur les valeurs
-# respectivement grâce à dictionnary.keys() et dictionnary.values()
+# Il est également possible d'itérer directement sur les valeurs grâce à
+# dictionnary.values()
+# Il est même possible d'utiliser dictionnary.items() pour itérer sur un tuple
+# [clé, valeur]
 
 
 
