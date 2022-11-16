@@ -9,7 +9,7 @@
 
 import re
 
-match = re.search(r'hello', 'hello world!')
+match = re.search('hello', 'hello world!')
 if match:
     print("La chaîne hello a été trouvée")
 
