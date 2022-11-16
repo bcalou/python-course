@@ -7,7 +7,7 @@
 import re
 
 match = re.search('hello|goodbye', 'hello world!')
-if (match):
+if match:
     print("La chaîne contient hello ou goodbye")
 
 # Complétez la fonction pour qu'elle renvoit True si la chaîne passée commence

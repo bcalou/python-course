@@ -11,7 +11,7 @@
 import re
 
 match = re.search('[a-z]+', 'hello')
-if (match):
+if match:
     print("La chaîne contient au moins une lettre minuscule")
 
 # Renvoyez True si la couleur passée en paramètre est valide.

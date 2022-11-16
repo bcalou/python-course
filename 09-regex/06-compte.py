@@ -10,7 +10,7 @@
 import re
 
 match = re.search('(hello){2,}', 'hellohello')
-if (match):
+if match:
     print("La chaîne contient hello au moins deux fois")
 
 # Grâce à cela, vous allez encore pouvoir simplifier la vérification du numéro

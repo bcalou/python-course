@@ -11,7 +11,7 @@
 import re
 
 match = re.search('Hello (?P<name>[a-zA-Z]+)', 'Hello Mary')
-if (match):
+if match:
     print("Un prénom a été trouvé :", match.group("name"))
 
 # À partir de la variable date, récupérez les variables year, month et day

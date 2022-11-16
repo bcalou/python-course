@@ -13,7 +13,7 @@
 import re
 
 match = re.search(r'\W', 'hello!')
-if (match):
+if match:
     print("La chaîne contient un caractère spécial")
 
 # Modifiez la fonction pour qu'elle renvoit True si la chaîne passée est un

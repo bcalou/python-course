@@ -7,7 +7,7 @@
 import re
 
 match = re.search('^hello', 'hello world!')
-if (match):
+if match:
     print("La chaîne commence par hello")
 
 # Complétez la fonction pour qu'elle renvoit True si la chaîne se termine par

@@ -9,7 +9,7 @@
 import re
 
 match = re.search('hello!?', 'hello')
-if (match):
+if match:
     print("La chaîne contient hello ou hello! (point d'exclamation optionnel)")
 
 # Modifiez la fonction pour qu'elle valide à nouveau un numéro de version

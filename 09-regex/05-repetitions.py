@@ -13,7 +13,7 @@
 import re
 
 match = re.search('(hello)+', 'hellohello')
-if (match):
+if match:
     print("La chaîne contient hello au moins une fois")
 
 # On cherche à valider des numéros de commandes. Un numéro valide est composé :
