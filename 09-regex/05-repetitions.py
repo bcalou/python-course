@@ -16,10 +16,11 @@ match = re.search('(hello)+', 'hellohello')
 if match:
     print("La chaîne contient hello au moins une fois")
 
-# On cherche à valider des numéros de commandes. Un numéro valide est composé :
-# du caractère hashtag "#"
-# de zéro ou plusieurs fois la lettre A
-# d'un ou plusieurs chiffres
+# On cherche à valider des numéros de commandes. Un numéro valide est composé,
+# dans l'ordre :
+# - du caractère hashtag "#"
+# - de zéro ou plusieurs fois la lettre A
+# - d'un ou plusieurs chiffres
 
 # Quelques numéros valides : #A89, #12345 #AAA2...
 
@@ -48,4 +49,4 @@ def is_valid_command(number: str) -> bool:
 
 
 
-print('\033[92m✓ OK\033[00m' if is_valid_command("#A89") and is_valid_command("#12345") and is_valid_command("#AAA8") and not is_valid_command("X#A89") and not is_valid_command("#AAA") and not is_valid_command("#A89!") else '\033[91m❌KO\033[00m')
+print('\033[92m✓ OK\033[00m' if is_valid_command("#A89") and is_valid_command("#12345") and is_valid_command("#AAA8") and not is_valid_command("X#A89") and not is_valid_command("#AAA") and not is_valid_command("#A89!") and not is_valid_command("#89A") else '\033[91m❌KO\033[00m')
