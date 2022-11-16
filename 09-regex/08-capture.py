@@ -1,4 +1,4 @@
-# Un aspect puissant de des regex est la capacité de capturer à la volée
+# Un aspect puissant des regex est la capacité de capturer à la volée
 # certaines parties d'une chaîne pour les récupérer dans des variables nommées.
 
 # Pour cela, on utilise la syntaxe (?P<var>...)
