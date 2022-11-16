@@ -34,7 +34,7 @@ invalid: list[str] = [
     "j@mail.com",
     "jj@mail.com",
     ".john.doe@mail.com",
-    ".john.doe.@mail.com",
+    "john.doe.@mail.com",
     "john.doe@.mail.com",
     "john.doe@mail..com",
     "john.doe@mail.c",
