@@ -5,9 +5,9 @@
 #   - des lettres minuscules
 #   - des chiffres
 #   - des points (mais pas au début ou à la fin de la chaîne). On accepte que
-#     plusieurs point se suivent pour simplifier l'exercice.
-# - continuer avec un "@"
-# - continuer avec un nom de domaine de la forme domaine.tld
+#   - plusieurs points se suivent pour simplifier l'exercice.
+#   - continuer avec un "@"
+#   - continuer avec un nom de domaine de la forme domaine.tld
 #   - domaine respecte les mêmes règles que la chaîne avant @
 #   - tld est une série de 2 ou 3 lettres minuscules
 

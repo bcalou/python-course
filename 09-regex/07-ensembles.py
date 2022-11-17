@@ -4,7 +4,7 @@
 # [a-z] : un caractère au choix parmi toutes les lettres de a à z
 # [A-Z] : un caractère au choix parmi toutes les lettres de A à Z
 # [0-9] : un caractère au choix parmi tous les chiffres (équivalent à \d)
-# [a-zA-z] : combinaison d'ensembles (n'importe quelle lettre)
+# [a-zA-Z] : combinaison d'ensembles (n'importe quelle lettre)
 
 # Exemple :
 
@@ -49,4 +49,4 @@ def is_valid_color(color: str) -> bool:
 
 
 
-print('\033[92m✓ OK\033[00m' if is_valid_color("#000000") and is_valid_color("#123Abc") and is_valid_color("#FFFFFF") and not is_valid_color("#1234567") and not is_valid_color("#12345") and not is_valid_color("123456") and not is_valid_color("!#123456") else '\033[91m❌KO\033[00m')
+print('\033[92m✓ OK\033[00m' if is_valid_color("#000000") and is_valid_color("#123Abc") and is_valid_color("#FFFFFF") and not is_valid_color("#FGDGIU") and not is_valid_color("#1234567") and not is_valid_color("#12345") and not is_valid_color("123456") and not is_valid_color("!#123456") else '\033[91m❌KO\033[00m')
