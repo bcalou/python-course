@@ -12,7 +12,7 @@
 # - attribut _type (str, aucune valeur pour le moment)
 # - attribut _life_points (int, aucune valeur pour le moment)
 # - attribut _attack (dictionnaire de type Attack, aucune valeur pour le
-# moment)
+# moment - dans cet exercice, chaque pokémon possède une attaque unique)
 # - méthode get_name(self) qui renvoit le nom
 # - méthode get_type(self) qui renvoit le type
 # - méthode is_ok(self) qui renvoit true si les points de vie sont positifs
@@ -101,8 +101,8 @@
 
 
 print('\033[92m✓ OK\033[00m' if isinstance(fight(Squirtle(""), Charmander("")), Squirtle)
-  and isinstance(fight(Charmander(""), Squirtle("")), Charmander)
-  and isinstance(fight(Squirtle(""), Bulbasaur("")), Bulbasaur)
-  and isinstance(fight(Bulbasaur(""), Squirtle("")), Bulbasaur)
-  and isinstance(fight(Charmander(""), Bulbasaur("")), Charmander)
-  and isinstance(fight(Bulbasaur(""), Charmander("")), Charmander) else '\033[91m❌KO\033[00m')
+  and isinstance(fight(Charmander("Charmander Alpha"), Squirtle("Squirtle Alpha")), Charmander)
+  and isinstance(fight(Squirtle("Squirtle Beta"), Bulbasaur("Bulbasaur Beta")), Bulbasaur)
+  and isinstance(fight(Bulbasaur("Bulbasaur Gamma"), Squirtle("Squirtle Gamma")), Bulbasaur)
+  and isinstance(fight(Charmander("Charmander Delta"), Bulbasaur("Bulbasaur Delta")), Charmander)
+  and isinstance(fight(Bulbasaur("Bulbasaur Epsilon"), Charmander("Charmander Epsilon")), Charmander) else '\033[91m❌KO\033[00m')
