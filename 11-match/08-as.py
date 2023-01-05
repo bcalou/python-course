@@ -20,7 +20,7 @@ match command.split():
 ################################################################################
 from typing import Tuple
 
-def get_formatted_date(date: str) -> Tuple[(int, int, int)] | None:
+def get_formatted_date(date: str) -> Tuple[int, int, int] | None:
 ################################################################################
 
 
