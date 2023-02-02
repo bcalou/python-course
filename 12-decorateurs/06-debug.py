@@ -7,7 +7,7 @@
 # Créez une autre méthode, square(a: int) qui retourne le carré d'un entier.
 # Appelez-là avec la valeur de votre choix.
 
-# Créez un décorateur @debug, qui ne prend pas de paramètre.
+# Créez un décorateur @debug.
 # Sachant que args est un tableau itérable, imprimez au début de la fonction
 # les paramètres passés à la fonction sous la forme
 # "Méthode sum appelée avec: 8, 6"
