@@ -11,7 +11,7 @@
 # Sachant que args est un tableau itérable, imprimez au début de la fonction
 # les paramètres passés à la fonction sous la forme
 # "Méthode sum appelée avec: 8, 6"
-# Le nom de la fonction est une variable est stocké dans function.__name__
+# Le nom de la fonction est une variable qui est stockée dans function.__name__
 # À la fin de la fonction, imprimez le résultat.
 
 # Appliquez le décorateur à sum() et square() et admirez le résultat.

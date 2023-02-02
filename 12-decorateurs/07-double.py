@@ -1,6 +1,6 @@
 # Il est possible d'associer plusieurs décorateurs à une seule méthode.
 
-# Pour cela, il suffit "d'empliler" les décorateurs au dessus de la méthode,
+# Pour cela, il suffit "d'empiler" les décorateurs au dessus de la méthode,
 # un par ligne.
 
 # Reprenez vos décorateurs test_duration et debug,
