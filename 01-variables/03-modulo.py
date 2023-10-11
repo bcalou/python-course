@@ -11,10 +11,10 @@
 # En utilisant l'opérateur modulo (%), stockez le résultat dans une variable
 # remaining_slices
 
-################################################################################
+###############################################################################
 pizza_slices: int = 8
 persons: int = 3
-################################################################################
+###############################################################################
 
 # Le modulo permet de savoir facilement si un nombre est pair. Si c'est le cas,
 # en le divisant par 2, il n'y a pas de reste (module égal à 0).

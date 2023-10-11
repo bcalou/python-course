@@ -2,7 +2,7 @@
 # variables !
 
 # Ci dessous, la deuxième variable utilise la première en la multipliant par
-# 60. # Vous pouvez bien sûr additionner, diviser, soustraire...
+# 60.Vous pouvez bien sûr additionner, diviser, soustraire...
 
 # Déclarez les variables suivantes et donnez leur des valeurs appropriées:
 # milliseconds_per_hour
@@ -12,10 +12,10 @@
 # afficher une variable et comprendre ce qui se passe (ou plus souvent, ce qui
 # ne se passe pas)
 
-################################################################################
+###############################################################################
 milliseconds_per_seconds: int = 1000
 milliseconds_per_minutes: int = milliseconds_per_seconds * 60
-################################################################################
+###############################################################################
 
 
 

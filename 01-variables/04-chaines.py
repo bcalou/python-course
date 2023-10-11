@@ -3,10 +3,10 @@
 
 # Ajoutez le troisième mois de l'année à cette liste de variables
 
-################################################################################
+###############################################################################
 first_month: str = "January"
 second_month: str = "February"
-################################################################################
+###############################################################################
 
 # Évidemment, cette structure de données est bien pauvre ! On ne va pas créer
 # une variable pour chaque mois... Mais chaque chose en son temps.

@@ -6,9 +6,9 @@
 # Créez des variables "water_is_green" et "fire_is_hot" avec les valeurs
 # appropriées.
 
-################################################################################
+###############################################################################
 sky_is_blue: bool = True
-################################################################################
+###############################################################################
 
 # On fera attention à nommer nos booleens comme des affirmations pour
 # fluidifier la lecture de notre code.
