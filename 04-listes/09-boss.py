@@ -10,7 +10,7 @@
 # Si l'index ne permet pas de séparer correctement le tableau, la fonction
 # retourne un tableau vide.
 
-# Le but de cette fonction est de faire ne sorte qu'un étudiant n'ait pas un
+# Le but de cette fonction est de faire en sorte qu'un étudiant n'ait pas un
 # semestre ne contenant que des zéros.
 
 # Si un des deux semestres ne contient pas d'autre note que des zéros, on
