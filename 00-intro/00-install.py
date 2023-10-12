@@ -12,8 +12,9 @@
 # Pendant l'installation, cochez la case "Add python to PATH"
 # Sur MacOS, sélectionnez macOS 64-bit universal2 installer
 
-# Dans VSCode, ouvrez le dossier "Algo" afin de voir tous les fichiers dans
-# l'arborescence, à gauche, et ouvrez exercice-00.py (ce fichier !).
+# Dans VSCode, ouvrez le dossier "python-course" afin de voir tous les
+# fichiers dans l'arborescence, à gauche, et ouvrez exercice-00.py
+# (ce fichier !).
 
 # Enfin, ouvrez un terminal, par exemple celui intégré à VSCode :
 # Terminal -> Nouveau terminal
