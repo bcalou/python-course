@@ -54,4 +54,4 @@ find_in_fibonacci_suite([584, 987, 2])
 
 
 
-print('\033[92m✓ OK\033[00m' if find_in_fibonacci_suite([1, 15, 75]) == 1 and find_in_fibonacci_suite([584, 987, 2]) == 987 and find_in_fibonacci_suite([144, 50, 89]) == 144 and find_in_fibonacci_suite([16, 87, 154]) == 0 else '\033[91m❌KO\033[00m')
+ print('\033[92m✓ OK\033[00m' if find_in_fibonacci_suite([1, 15, 75]) == 1 and find_in_fibonacci_suite([584, 987, 2]) == 987 and find_in_fibonacci_suite([144, 50, 89]) == 144 and find_in_fibonacci_suite([16, 87, 154]) == 0  and find_in_fibonacci_suite([584, 988, 2]) == 2 else '\033[91m❌KO\033[00m')
