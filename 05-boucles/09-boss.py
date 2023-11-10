@@ -6,7 +6,7 @@
 
 # Écrivez une fonction find_in_fibonacci_suite()
 # Cette fonction prendra un tableau d'entiers.
-# La fonction doit retourner le premier entier de la listequi appartient à la
+# La fonction doit retourner le premier entier de la liste qui appartient à la
 # suite de Fibonacci (ou 0 si aucun ne correspond).
 
 # Exemple : [584, 987, 2] donne 987 (premier élément de la liste correspondant)
