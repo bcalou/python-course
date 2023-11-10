@@ -1,5 +1,5 @@
 # Créez une fonction is_valid_password() qui prend en paramètre une chaîne de
-# caractère et qui vérifie si le mot de passe est valide selon les critères
+# caractères et qui vérifie si le mot de passe est valide selon les critères
 # suivants :
 
 # Le mot de passe fait au moins 6 caractères
