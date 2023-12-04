@@ -25,6 +25,9 @@ my_instance.say_hello()
 # c'est un réseau un peu élitiste... c'est pour l'exemple !)
 # Gardez aussi la condition sur is_adult.
 
+# Pour que l'exercice soit validé, veillez à avoir une méthode get_followers
+# dans User, retournant le nombre de followers.
+
 ###############################################################################
 
 ###############################################################################
@@ -59,4 +62,4 @@ student_with_degree.add_followers(2)
 student__without_degree = Student("bob", "doe", 10, "cmam", 2)
 student__without_degree.add_followers(1)
 student__without_degree.add_followers(2)
-print('\033[92m✓ OK\033[00m' if user._followers == 3 and student_with_degree._followers == 3 and student__without_degree._followers == 0 else '\033[91m❌KO\033[00m')
+print('\033[92m✓ OK\033[00m' if user.get_followers() == 3 and student_with_degree.get_followers() == 3 and student__without_degree.get_followers() == 0 else '\033[91m❌KO\033[00m')
