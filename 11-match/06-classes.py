@@ -64,4 +64,4 @@ def get_subscription_price(user: Any) -> int | None:
 
 
 
-print('\033[92m✓ OK' if get_subscription_price(User("john", True, True)) == 10 and get_subscription_price(User("john", True, False)) == 20 and get_subscription_price(User("john", False, True)) == 20 and get_subscription_price(User("john", False, False)) == 30 and get_subscription_price("coucou") == None else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_subscription_price(User("john", True, True)) == 10 and get_subscription_price(User("john", True, False)) == 20 and get_subscription_price(User("john", False, True)) == 20 and get_subscription_price(User("john", False, False)) == 30 and get_subscription_price("coucou") == None else '\033[91m❌ KO\033[00m')

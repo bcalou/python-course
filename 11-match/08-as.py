@@ -48,4 +48,4 @@ def get_formatted_date(date: str) -> Tuple[int, int, int] | None:
 
 
 
-print('\033[92m✓ OK' if get_formatted_date("2021-12-12") == (2021, 12, 12) and get_formatted_date("2023-12-12") == (2023, 12, 12) and get_formatted_date("2024-12-12") == None else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_formatted_date("2021-12-12") == (2021, 12, 12) and get_formatted_date("2023-12-12") == (2023, 12, 12) and get_formatted_date("2024-12-12") == None else '\033[91m❌ KO\033[00m')

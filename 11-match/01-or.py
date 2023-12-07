@@ -46,4 +46,4 @@ def get_food_type(food: str):
 
 
 
-print('\033[92m✓ OK' if get_food_type("fries") == "vegan" and get_food_type("tomato") == "vegan" and get_food_type("cheese") == "veggie" and get_food_type("beef") == "animal" and get_food_type("chicken") == "animal" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_food_type("fries") == "vegan" and get_food_type("tomato") == "vegan" and get_food_type("cheese") == "veggie" and get_food_type("beef") == "animal" and get_food_type("chicken") == "animal" else '\033[91m❌ KO\033[00m')

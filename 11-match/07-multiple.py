@@ -49,4 +49,4 @@ def compute(command: str) -> int | None:
 
 
 
-print('\033[92m✓ OK' if compute("add 7") == 7 and compute("add 7 2") == 9 and compute("add 7 2 2") == 11 and compute("multiply 7") == 7 and compute("multiply 7 2") == 14 and compute("multiply 7 2 2") == 28 and compute("coucou") == None else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if compute("add 7") == 7 and compute("add 7 2") == 9 and compute("add 7 2 2") == 11 and compute("multiply 7") == 7 and compute("multiply 7 2") == 14 and compute("multiply 7 2 2") == 28 and compute("coucou") == None else '\033[91m❌ KO\033[00m')

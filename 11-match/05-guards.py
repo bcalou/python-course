@@ -67,4 +67,4 @@ currentDateTime = datetime.datetime.now()
 date = currentDateTime.date()
 year = int(date.strftime("%Y"))
 
-print('\033[92m✓ OK' if get_formatted_date((2021, 12, 12)) == (2021, 12, 12) and get_formatted_date((12, 12)) == (year, 12, 12) and get_formatted_date("2021-12-12") == (2021, 12, 12) and get_formatted_date((1899, 12, 12)) == None and get_formatted_date("2021/12/12") == (2021, 12, 12) and get_formatted_date("20121212") == None else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_formatted_date((2021, 12, 12)) == (2021, 12, 12) and get_formatted_date((12, 12)) == (year, 12, 12) and get_formatted_date("2021-12-12") == (2021, 12, 12) and get_formatted_date((1899, 12, 12)) == None and get_formatted_date("2021/12/12") == (2021, 12, 12) and get_formatted_date("20121212") == None else '\033[91m❌ KO\033[00m')

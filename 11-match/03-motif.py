@@ -49,4 +49,4 @@ def get_date_type(date: Tuple[int, int, int] | Tuple[int, int] | str) -> str:
 
 
 
-print('\033[92m✓ OK' if get_date_type((2021, 12, 12)) == "YYYYMMdd" and get_date_type((12, 12)) == "MMdd" and get_date_type("2021-12-12") == "YYYY-MM-dd" else '\033[91m❌KO')
+print('\033[92m✓ OK\033[00m' if get_date_type((2021, 12, 12)) == "YYYYMMdd" and get_date_type((12, 12)) == "MMdd" and get_date_type("2021-12-12") == "YYYY-MM-dd" else '\033[91m❌ KO\033[00m')
